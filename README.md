@@ -57,6 +57,6 @@ Significance level: 0.05
 
 ### Statistical test: 
 
-One Way Analysis of Variance (ANOVA) Test
+One-Way Analysis of Variance (ANOVA) Test
 
 We can test the means of a single dependent variable across a single independent variable with multiple groups (fuel efficiency or safety rating in this case).
