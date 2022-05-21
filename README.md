@@ -44,12 +44,13 @@ Statistical study that can quantify how the MechaCar performs against the compet
 
 ### Metrics of interest: 
 
-*Fuel efficiency in city vs highway - miles per gallon 
-*Safety rating 
+Fuel efficiency in city vs highway - miles per gallon 
+
+Safety rating 
 
 ### Hypotheses:
 
-Null hypothesis: There is no statistically significant difference in fuel efficiency and safety rating between MechaCar and competition. 
+Null hypothesis: There is no statistically significant difference in distribution means for fuel efficiency and safety rating between MechaCar and competition. 
 Alternate hypothesis: There is a statistically significant difference in fuel efficiency and safety rating between MechaCar and competition.
 
 Significance level: 0.05
@@ -59,10 +60,3 @@ Significance level: 0.05
 One Way Analysis of Variance (ANOVA) Test
 
 We can test the means of a single dependent variable across a single independent variable with multiple groups (fuel efficiency or safety rating in this case).
-
-
-
-
-
-
-
