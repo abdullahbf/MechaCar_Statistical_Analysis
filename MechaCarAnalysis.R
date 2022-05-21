@@ -16,3 +16,9 @@ file <- file.choose()
 suspension_df <- read.csv(file,stringsAsFactors = F,check.names = F)
 
 # Summary statistics for suspension_df
+total_summary <- suspension_df %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI),
+                                             .groups = 'keep')
+
+# Lot summary
+lot_summary <- suspension_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI),
+                                                                           .groups = 'keep')
